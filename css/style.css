@@ -88,6 +88,19 @@ body {
     height: auto;
     padding-left: 16px;
 }
+.contact-form .submit-button-wrapper input {
+    background-color: goldenrod;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 4px;
+    padding: 10px 60px;
+}
 footer {
     color: white;
     text-align: center;
