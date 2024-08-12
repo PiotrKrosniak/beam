@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <div class="spacer"></div>
-            <h1 class="navbar-brand" href="#banner">BEAM</h1>
+            <h1 class="navbar-brand" href="#banner">beam.</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,7 +26,6 @@
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
                     <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
 
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -37,12 +36,17 @@
 
    <!-- Banner Section -->
     <section id="banner">
+        <video autoplay muted loop id="banner-video">
+            <source src="/Users/pkrosniak/Developer/beam.io/SandwitchWalls_FullVideo0000-16973.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
         <div class="container d-flex">
             <div class="banner-content">
                 <div class="spacer"></div>
                 <h1 class="display-4">beam. <br> Construction of the future</h1>
                 <br>
-                <h2 class="lead">Beam is a self-assembled* energy efficient family house with three bedrooms for half of the price using standard methods. </h2>
+                <h2 class="lead">Beam is a self-assembled* energy efficient family house with three bedrooms for half of the price using standard methods.</h2>
                 <br>
                 <div class="spacer"></div>
                 <br><br>
@@ -51,7 +55,7 @@
             <div class="banner-image d-none d-md-block"></div>
         </div>
     </section>
-<hr></hr>
+
 
      <!-- About Section -->
     <section id="about" class="about">
@@ -119,17 +123,18 @@
             <h2 class="text-center mb-4">Starter projects</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="../beam.io v2/images/01_l.jpg" alt="Gallery 1" class="img-fluid">
+                    <img src="./images/house3.png" alt="Gallery 1" style="height: 200px; width: auto; object-fit: cover;" class="img-fluid">
+                    <h4>House no 1</h4>
+                    <p>70 sq family house with two bedrooms one bathroom</p>
+                </div>
+        
+                <div class="col-md-4">
+                    <img src="./images/house1.png" alt="Gallery 3" style="height: 200px; width: auto; object-fit: cover;" class="img-fluid">
                     <h4>House no 1</h4>
                     <p>70 sq family house with two bedrooms one bathroom</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="../beam.io v2/images/02_l.jpg" alt="Gallery 2" class="img-fluid">
-                    <h4>House no 1</h4>
-                    <p>70 sq family house with two bedrooms one bathroom</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="../beam.io v2/images/03_l.jpg" alt="Gallery 3" class="img-fluid">
+                    <img src="./images/house3.png" alt="Gallery 1" style="height: 200px; width: auto; object-fit: cover;" class="img-fluid">
                     <h4>House no 1</h4>
                     <p>70 sq family house with two bedrooms one bathroom</p>
                 </div>
@@ -161,54 +166,58 @@
                             <tbody>
                                 <tr>
                                     <td>Foundation panels</td>
-                                    <td>$30/mo</td>
+                                    <td>$4999</td>
                                     <td>Foundation panels system based on posts.</td>
                                 </tr>
                                 <tr>
-                                    <td>Wall panels</td>
-                                    <td>$500 x 20</td>
-                                    <td>20 precast concrete sandwich panels. With electrical and plumbing installations. Primer ready to paint or wall paper</td>
+                                    <td>Wall panels standard </td>
+                                    <td>$199 x 12</td>
+                                    <td>Precast concrete sandwich panels. With electrical and plumbing installations. Primer ready to paint or wall paper</td>
+                                </tr>
+                                <tr>
+                                    <td>Wall panels triple-glazed windows </td>
+                                    <td>$599 x 6</td>
+                                    <td>Precast concrete sandwich panels with triple-glazed windows. With electrical and plumbing installations. Primer ready to paint or wall paper</td>
+                                </tr>
+                                <tr>
+                                    <td>Wall panels doors </td>
+                                    <td>$599 x 1</td>
+                                    <td>Precast concrete sandwich panels with secure door three lock system. With electrical and plumbing installations. Primer ready to paint or wall paper</td>
+                                </tr>
+                                <tr>
+                                    <td>Wall panels triple-glazed terrace windows </td>
+                                    <td>$999 x 1</td>
+                                    <td>Precast concrete sandwich panels with triple-glazed windows. With electrical and plumbing installations. Primer ready to paint or wall paper</td>
                                 </tr>
                                 <tr>
                                     <td>Floor panels</td>
-                                    <td>$20/mo</td>
-                                    <td>10 floor panels with integrated floor heating</td>
+                                    <td>$299 x 40</td>
+                                    <td>Floor panels with integrated floor heating for two floors</td>
                                 </tr>
                                 <tr>
                                     <td>Internal walls panels</td>
-                                    <td>$30/mo</td>
+                                    <td>$199 x 40</td>
                                     <td>Internal panels with embedded electrical system.</td>
                                 </tr>
-                                
                                 <tr>
-                                    <td>Windows and doors</td>
-                                    <td>$30/mo</td>
-                                    <td>All triple glazed windows with one roof window and sliding terrace doors.</td>
+                                    <td>Upper floor panels</td>
+                                    <td>$199 x 10</td>
+                                    <td>Upper floor panels with electrical system</td>
                                 </tr>
                                 <tr>
-                                    <td>Roof solar system</td>
-                                    <td>$50/mo</td>
+                                    <td>Roof solar panel system</td>
+                                    <td>mo</td>
                                     <td>Solar roof with solar shingles producing 10kW energy</td>
                                 </tr>
                                 <tr>
-                                    <td>Electrical installation </td>
-                                    <td>$15/mo</td>
-                                    <td>Electrical system in entire house including outlets and light points</td>
-                                </tr>
-                                <tr>
-                                    <td>Plumbing system</td>
-                                    <td>$25/mo</td>
-                                    <td>Plumbing system with installed toilet and connections for sinks, dishwashers, ect.</td>
-                                </tr>
-                                <tr>
                                     <td>Tools Container</td>
-                                    <td>$25/mo</td>
-                                    <td>All tools and gear necessary to assembly the house.</td>
+                                    <td>$599/mo</td>
+                                    <td>First month free, then monthly cost.</td>
                                 </tr>
                                 
                                 <tr>
                                     <td><b>TOTAL</b></td>
-                                    <td><b>$49.999</b></td>
+                                    <td><b>~$44.999</b></td>
                                     <td><b></b></td>
                                 </tr>
                             </tbody>
@@ -219,20 +228,7 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <h2 class="text-center mb-4">Testimonials</h2>
-            <blockquote>
-                <p>"This is the best service I have ever used! Highly recommended!"</p>
-                <footer>- John Doe</footer>
-            </blockquote>
-            <blockquote>
-                <p>"Amazing experience, great team, and excellent customer support!"</p>
-                <footer>- Jane Smith</footer>
-            </blockquote>
-        </div>
-    </section>
+    
     <!-- FAQ Section -->
     <section id="faq" class="faq">
         <div class="container">
@@ -269,7 +265,7 @@
                             <div class="card-header" id="headingTwo">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        All tis seems very innovative was this solutions tested ?
+                                        All seems very innovative was this solutions tested ?
                                     </button>
                                 </h5>
                             </div>
